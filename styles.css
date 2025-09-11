@@ -5,13 +5,16 @@
     /* border: 1px solid red; */
 }
 
+.main-menu {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .header-background {
     background-color: #1F2937;
     padding: 10px 100px 100px;
-}
-
-.header-content {
-    font-style: Roboto;
 }
 
 .header {
@@ -33,7 +36,6 @@
 
 .header-two {
     display: flex;
-    /* gap: 350px; */
     justify-content: space-between;
     padding-top: 90px;
 }
@@ -70,6 +72,70 @@ button {
     padding: 4px 15px;
     background-color: #3882F6;
     color: #F9FAF8;
-    border: none;
+    border: 1px solid white;
     border-radius: 6px;
+}
+
+.info-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    /* flex-shrink: 1; */
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box img {
+    border: 1px solid blue;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 150px 300px 150px 300px;
+}
+
+.quote-container div p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+#author { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lower-part {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    place-content: center center;
+}
+
+.lower-container {
+    background-color: #3882F6;
+    display: flex;
 }
